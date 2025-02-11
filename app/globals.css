@@ -81,11 +81,11 @@
 
     /* profile */
     .profile_container {
-        @apply w-full pb-10 pt-20 px-6 max-w-7xl mx-auto lg:flex-row flex-col flex gap-10;
+        @apply w-full pb-10 pt-20 px-6 max-w-7xl mx-auto flex-col flex gap-10;
     }
 
     .profile_card {
-        @apply w-80 px-6 pb-6 pt-20 flex flex-col justify-center items-center bg-primary border-[5px] border-black shadow-100 rounded-[30px] relative z-0 h-fit max-lg:w-full;
+        @apply px-6 pb-6 pt-20 flex flex-col justify-center items-center bg-primary border-[5px] border-black shadow-100 rounded-[30px] relative z-0 h-fit w-full;
     }
 
     .profile_title {
