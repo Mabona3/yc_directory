@@ -39,11 +39,11 @@ const StartupCard = ( { post }: { post:StartupTypeCard }) => {
           </Link>
         </div>
         <Link href={`/user/${author?._id}`}>
-          <img src={author?.image!} alt={author?.name!} width="48" height="48" className='rounded-full'/>
+          <Image src={author?.image!} alt={author?.name!} width="48" height="48" className='rounded-full'/>
         </Link>
       </div>
       <Link href={`/startup/${_id}`}>
-        <p className="startup-catd_desc">{description}</p>
+        <p className="startup-card_desc">{description}</p>
         {image ? 
         (<Image src={image} alt="placeholder" className="startup-card_img" width="48" height="48"/>):
         (<Image src={tempimage} alt="placeholder" className="startup-card_img" width="48" height="48"/>)
